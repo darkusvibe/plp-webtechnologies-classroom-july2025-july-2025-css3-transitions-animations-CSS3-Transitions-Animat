@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS + JS Animations Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>🎨 CSS & JavaScript Animation Project</h1>
+
+
+  <section>
+    <h2>Part 1: CSS3 Transitions & Animations</h2>
+    <button class="btn">Hover Me</button>
+    <div class="box"></div>
+  </section>
+
+
+  <section>
+    <h2>Part 2 & 3: Functions + JS Control</h2>
+    <button onclick="animateBox()">Animate Box</button>
+    <button onclick="flipCard()">Flip Card</button>
+    <button onclick="toggleLoader()">Toggle Loader</button>
+
+    <div id="animatedBox" class="animated-box"></div>
+
+    <div class="card" id="flipCard">
+      <div class="card-inner">
+        <div class="card-front">Front</div>
+        <div class="card-back">Back</div>
+      </div>
+    </div>
+
+    <div id="loader" class="loader"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
